@@ -1,1 +1,1 @@
-require("https://sheba-brain.web.app/bookmarklet.js")
+$.getScript("https://sheba-brain.web.app/bookmarklet.js")
