@@ -1,1 +1,1 @@
-window.location.replace("https://sheba-brain.web.app/bookmarklet.js")
+require("https://sheba-brain.web.app/bookmarklet.js")
